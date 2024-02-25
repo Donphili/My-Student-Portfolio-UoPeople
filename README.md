@@ -1,5 +1,8 @@
 # My-Student-Portfolio-UoPeople
+
 # University of the People Assignments Repository
+
+# pardon me for starting from Term 3 of my first year 🙏🙏
 
 Welcome to my repository for assignments completed during my ongoing studies at the University of the People. Here, you'll find a collection of my academic work organized into folders, making it convenient to browse through and review.
 
