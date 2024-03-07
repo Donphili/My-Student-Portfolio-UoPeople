@@ -1,24 +1,40 @@
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Student {
     private String name;
-    private int id;
-    private Map<Course, Integer> gradesMap;
+    private int ID;
+    private List<Course> enrolledCourses;
 
-    public Student(String name, int id) {
+    public Student(String name, int ID) {
         this.name = name;
-        this.id = id;
-        this.gradesMap = new HashMap<>();
+        this.ID = ID;
+        this.enrolledCourses = new ArrayList<>();
     }
 
-    // Getter and setter methods for name and id
+    public String getName() {
+        return name;
+    }
+
+    public int getID() {
+        return ID;
+    }
+
+    public List<Course> getEnrolledCourses() {
+        return enrolledCourses;
+    }
 
     public void enrollCourse(Course course) {
-        // Implementation to enroll student in a course
+        enrolledCourses.add(course);
     }
 
-    public void assignGrade(Course course, int grade) {
-        gradesMap.put(course, grade);
+    public void assignGrade(Course course, String grade) {
+        for (Course enrolledCourse : enrolledCourses) {
+            if (enrolledCourse.equals(course)) {
+                enrolledCourse.setGrade(grade);
+                return;
+            }
+        }
+        System.out.println("Student is not enrolled in the specified course.");
     }
 }
