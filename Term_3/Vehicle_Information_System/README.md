@@ -65,12 +65,20 @@ Upon running the Main class, the user is presented with a menu where they can ch
 
 # Contact Information
 
-Email: donphilip65@yahoo.com
+* Email: donphilip65@yahoo.com
+
 LinkedIn: Onyejekwe Philip Emeka
+
 Facebook: Don Philip
+
 Twitter: @donphilip855
+
 Instagram: dmaketer
+
 YouTube: Don Philip
+
 WhatsApp: +2348039573143
+
 GitHub: Donphili
+
 By Don Philip | GitHub
